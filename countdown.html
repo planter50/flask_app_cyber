@@ -1,31 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Timer</title>
-    <link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-    <div class="countdown">
-        <div class="time">
-            <span class="days"></span>
-            <div class="smalltext">Days</div>
-        </div>
-        <div class="time">
-            <span class="hours"></span>
-            <div class="smalltext">Hours</div>
-        </div>
-        <div class="time">
-            <span class="minutes"></span>
-            <div class="smalltext">Minutes</div>
-        </div>
-        <div class="time">
-            <span class="seconds"></span>
-            <div class="smalltext">Seconds</div>
-        </div>
-    </div>
+<html>
+<link rel="stylesheet" href="static/style.css">
+<script src="/static/script.js"></script> 
 
-    <script src="/static/script.js"></script>
-</body>
-</html>
+<div class="container">
+    <h1 id="headline">Countdown for new years!</h1>
+    <div id="countdown">
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
+    <div id="content" class="emoji">
+      <span>🥳</span>
+      <span>🎉</span>
+      <span>🎂</span>
+    </div>
+  </div>
